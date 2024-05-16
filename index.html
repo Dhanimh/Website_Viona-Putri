@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Website for Couples</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #ffe6e6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #b30000;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: #ff4d4d;
+        }
+        h2 {
+            color: #ff6666;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 15px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin: 10px 0;
+        }
+        .button {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 20px 0;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #e60000;
+        }
+        .heart {
+            font-size: 2em;
+            color: #ff4d4d;
+            margin: 20px 0;
+        }
+        .love-message-form {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #e60000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>愛の天国へようこそ</h1>
+        <h3>Selamat Datang Di Surga Kita</h3>
+        <p>Celebrating every moment of love together.</p>
+        <div class="heart">❤</div>
+
+        <h2>Photo Gallery</h2>
+            <img src="gallery/WhatsApp Image 2024-05-04 at 11.05.08_485d9fc7.jpg" width="90" height="160">
+            <img src="gallery/WhatsApp Image 2024-05-04 at 11.13.06_3fe26664.jpg" width="120" height="160">
+            <img src="gallery/WhatsApp Image 2024-05-04 at 11.23.37_5c4eb2bb.jpg" width="90" height="160">
+        </div>
+
+        <h2>Love Quotes</h2>
+        <p>“I love you not only for what you are, but for what I am when I am with you.“</p>
+        <p>“You are my sun, my moon, and all my stars.”</p>
+        <p>“In all the world, there is no heart for me like yours.”</p>
+        <p>~ Dhani Miftakhul Huda</p>
+        <a href="love_quotes.html" class="button">Read More Love Quotes</a>
+
+        <h2>Romantic Activities</h2>
+        <ul>
+            <li>Candlelight Dinner</li>
+            <li>Watching the Sunset</li>
+            <li>Stargazing Night</li>
+            <li>Sleep together</li>
+            <li>Making Love</li>
+            <li>Beach Walk</li>
+        </ul>
+
+        <h2>Send a Love Message</h2>
+        <div class="love-message-form">
+            <form action="submit_message.html" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <textarea name="message" placeholder="Your Love Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
